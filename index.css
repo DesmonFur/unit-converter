@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+
+.header-container {
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6943ff;
+  width: 500px;
+  color: white;
+}
+
+#unit {
+  width: 117px;
+  height: 83px;
+  text-align: center;
+  font-size: 58px;
+  color: white;
+  background-color: #6943ff;
+  border: 2px solid #b295ff;
+  border-radius: 2px;
+}
+
+#unit::placeholder {
+  width: 117px;
+  height: 83px;
+  text-align: center;
+  font-size: 58px;
+  color: white;
+}
+
+#convert-btn {
+  margin-top: 36px;
+  margin-bottom: 34px;
+  padding: 9px 28px;
+  background-color: #ffffff;
+  color: #3d3d3d;
+  border: none;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.05));
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.conversion-container {
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.unit-container {
+  margin-bottom: 24px;
+  width: 350px;
+  background-color: #ffffff;
+}
+
+.unit-header {
+  color: #5a537b;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.conversion {
+  text-align: center;
+  font-size: 14px;
+  color: #353535;
+  font-family: "Inter", sans-serif;
+}
